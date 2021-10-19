@@ -26,7 +26,7 @@ body, html {
     row-gap: 10px;
 }
 
-.posts_items{
+.posts_items {
     flex-grow: 1;
 }
 
@@ -60,6 +60,7 @@ body, html {
 .f_dir_col {
     flex-direction: column;
 }
+
 /* =========== border ===========*/
 .border_rad10px {
     border-radius: 10px;

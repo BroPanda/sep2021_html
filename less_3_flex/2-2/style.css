@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+}
+
+.wrap {
+    margin: 20px;
+    row-gap: 20px;
+}
+
+.block_1 {
+    height: 350px;
+}
+
+.block_2 {
+    height: 250px;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.block_2_items {
+    flex-grow: 1;
+}
+
+.block_3 {
+    height: 500px;
+}
+
+/* ======= style =======*/
+
+.bgc_blue {
+    background-color: #9eb9ff;
+}
+
+.bgc_darkBlue {
+    background-color: #4f4fc0;
+}
+
+.color_gold {
+    color: gold;
+}
+
+/* ======= flex =======*/
+
+.d_flex {
+    display: flex;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.flex_center {
+    justify-content: center;
+    align-items: center;
+}
