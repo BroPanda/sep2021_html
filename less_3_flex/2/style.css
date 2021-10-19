@@ -1,2 +1,54 @@
+body, html{
+    margin: 0;
+}
 
+.wrap {
+    margin: 20px;
+    row-gap: 10px;
+    height: 95vh;
+}
 
+.header{
+    background-color: #9eb9ff;
+    flex-grow: 1;
+}
+.nav{
+    background-color: #1d1d49;
+    color: gold;
+    flex-grow: 1;
+}
+.content{
+    flex-grow: 5;
+    column-gap: 10px;
+
+}
+.main{
+    height: 100%;
+    flex-grow: 4;
+    background: gray;
+}
+.aside{
+    height: 100%;
+    flex-grow: 1;
+    background: #b0b0b0;
+}
+
+.footer{
+    background: #9eb9ff;
+    flex-grow: 1;
+}
+
+/* ======= flex =======*/
+
+.d_flex {
+    display: flex;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.flex_center {
+    justify-content: center;
+    align-items: center;
+}
