@@ -1,0 +1,123 @@
+body, html {
+    padding: 0;
+}
+
+.wrap {
+    height: 98vh;
+}
+
+.block_1 {
+}
+
+.block_1__border {
+    border: 5px solid #9abcc8;
+    border-radius: 70px;
+    margin: 5px 70px 40px 80px;
+    padding: 20px;
+}
+
+.block_1_item1 {
+}
+
+.block_1_item1_text {
+    width: 20%;
+}
+
+.block_1_item1_text div {
+    background-color: #102b3e;
+}
+
+.block_1_item1_blocks {
+    padding: 10px;
+}
+
+.block_1_item1_block1 {
+    height: 80%;
+    width: 80%;
+}
+
+.block_1_item1_block2 {
+    width: 60%;
+}
+
+
+/* ======= size  ======= */
+.width100 {
+    width: 100%;
+}
+
+.flex_grow_1 {
+    flex-grow: 1;
+}
+
+.flex_grow_2 {
+    flex-grow: 2;
+}
+
+.flex_grow_3 {
+    flex-grow: 3;
+}
+
+.h20 {
+    height: 20px;
+}
+
+.row_gap_5 {
+    row-gap: 5px;
+}
+
+.col_gap_5 {
+    column-gap: 5px;
+}
+
+.col_gap_50 {
+    column-gap: 50px;
+}
+
+
+/* ======= flex  ======= */
+
+.d_flex {
+    display: flex;
+}
+
+.flex_center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+
+/* ======= bg_colors  ======= */
+
+.bgc_grey {
+    background-color: #CED8DF;
+}
+
+.bgc_blue {
+    background-color: #102b3e;
+}
+
+/* ======= borders  ======= */
+
+.border_rad10px {
+    border-radius: 10px;
+}
+
+.border_rad20px {
+    border-radius: 20px;
+}
+
+.border_red {
+    border: 1px solid red;
+}
+
+.border_blue {
+    border: 1px solid blue;
+}
+
+
+

@@ -6,6 +6,9 @@ body, html {
     height: 98vh;
     margin: 5px;
     row-gap: 10px;
+
+    flex-direction: column;
+    background-color: #b0b0b0;
 }
 
 .header {
@@ -27,7 +30,10 @@ body, html {
 }
 
 .posts_items {
-    flex-grow: 1;
+    flex-grow: 3;
+}
+.posts_items2 {
+    flex-grow: 7;
 }
 
 .footer {
@@ -65,6 +71,7 @@ body, html {
 .border_rad10px {
     border-radius: 10px;
 }
+
 
 
 
