@@ -40,8 +40,38 @@ body, html {
     width: 60%;
 }
 
+.block_2__border {
+    height: 80%;
+    width: 80%;
+
+}
+
+.block_2__border > div:nth-child(2n) {
+    border: 2px solid gray;
+
+}
+
+.block2_item {
+    height: 100%;
+    margin: 0 30px;
+}
+
+.block2_item_img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.block2_item_text {
+    max-width: 50%
+}
+
 
 /* ======= size  ======= */
+.width33 {
+    width: 33%;
+}
+
 .width100 {
     width: 100%;
 }
@@ -66,12 +96,25 @@ body, html {
     row-gap: 5px;
 }
 
+.row_gap_25 {
+    row-gap: 25px;
+}
+
+.row_gap_50 {
+    row-gap: 50px;
+}
+
 .col_gap_5 {
     column-gap: 5px;
 }
 
 .col_gap_50 {
     column-gap: 50px;
+}
+
+
+.text_center {
+    text-align: center;
 }
 
 
@@ -99,6 +142,16 @@ body, html {
 
 .bgc_blue {
     background-color: #102b3e;
+}
+
+/* ======= colors  ======= */
+
+.grey {
+    color: #CED8DF;
+}
+
+.blue {
+    color: #102b3e;
 }
 
 /* ======= borders  ======= */
