@@ -15,6 +15,33 @@ body, html {
     margin-right: 170px;
 }
 
+
+.menu{
+    height: 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_pic{
+    width: 230px;
+    margin-left: 200px;
+}
+.menu_buttons{
+    margin-right: 180px;
+    width: 510px;
+}
+
+.menu_button{
+}
+
+
+
+
+
+
+
+
+
 .block_1__border {
     border: 5px solid #9abcc8;
     border-radius: 70px;
@@ -80,6 +107,10 @@ body, html {
 
 .h20 {
     height: 20px;
+}
+
+.h100{
+    height: 100px;
 }
 
 .h-450{
