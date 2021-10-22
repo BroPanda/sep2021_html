@@ -1,12 +1,18 @@
 body, html {
-    padding: 0;
+    margin: 0;
 }
 
 .wrap {
-    height: 98vh;
 }
 
-.block_1 {
+.header{
+    height: 80px;
+    justify-content: right;
+    align-items: center;
+}
+.header_menu{
+    width: 350px;
+    margin-right: 170px;
 }
 
 .block_1__border {
@@ -68,6 +74,18 @@ body, html {
 
 
 /* ======= size  ======= */
+.h10 {
+    height: 10px;
+}
+
+.h20 {
+    height: 20px;
+}
+
+.h-450{
+    height: 450px;
+}
+
 .width33 {
     width: 33%;
 }
@@ -86,10 +104,6 @@ body, html {
 
 .flex_grow_3 {
     flex-grow: 3;
-}
-
-.h20 {
-    height: 20px;
 }
 
 .row_gap_5 {
@@ -142,6 +156,10 @@ body, html {
 
 .bgc_blue {
     background-color: #102b3e;
+}
+
+.bgc_cyan{
+    background-color: #3ac6ea;
 }
 
 /* ======= colors  ======= */
