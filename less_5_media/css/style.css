@@ -1,0 +1,326 @@
+/* ________ HEADER BLOCK ________*/
+
+.header {
+    background: aqua;
+    height: 60px;
+    align-items: center;
+    justify-content: right;
+}
+
+.header_menu {
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.header_menuItem {
+    margin: 1px 5px;
+    padding: 5px 10px;
+
+}
+
+/* ________ NAV BLOCK ________*/
+.nav {
+    height: 170px;
+}
+
+.nav_blocks {
+    width: 50%;
+}
+
+.nav_button {
+    padding: 20px 50px;
+}
+
+.nav_items {
+    padding: 7px 30px;
+    margin: 10px;
+}
+
+/* ________ MAIN BLOCK ________*/
+
+.main {
+    height: 560px;
+    background: aqua;
+}
+
+.maim_block {
+    height: 80%;
+    width: 50%;
+}
+
+.main_block_text {
+    text-align: center;
+}
+
+.main_block_button {
+    padding: 20px 70px;
+    margin: 20px;
+}
+
+/* ________ BLOCK-1 BLOCK ________*/
+
+.block-1 {
+}
+
+.block-1_border {
+    height: 90%;
+    width: 85%;
+    border: 4px solid aquamarine;
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.block-1_header {
+    height: 10%;
+    width: 90%;
+    margin: 20px;
+}
+
+.block-1_container {
+    height: 80%;
+    width: 100%;
+}
+
+.block-1_container_items {
+    height: 100%;
+    width: 50%;
+}
+
+.block-1_container_item {
+    height: 100%;
+    width: 50%;
+}
+
+.block-1_item_photo {
+    background: #1d1d49;
+    height: 180px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.block-1_item_text {
+    margin: 20px;
+}
+
+
+/* ________ BLOCK-2 BLOCK ________*/
+
+.block-2 {
+    background: #1d1d49
+}
+
+.block-2_items {
+    width: 80%;
+}
+
+.block-2_item {
+    height: 500px;
+    width: 33%;
+}
+
+.block-2_item_border {
+    height: 90%;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.block-2_item_border:hover {
+    border: 3px solid #9abcc8;
+}
+
+.block-2_item_img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: #9abcc8;
+}
+
+.block-2_item_text {
+    margin: 20px 0;
+    color: #9abcc8;
+    width: 50%;
+    text-align: center;
+}
+
+/* ________ GALLERY BLOCK ________*/
+
+.gallery {
+    padding-bottom: 20px;
+}
+
+.gallery_title {
+    height: 200px;
+    margin-top: 50px;
+}
+
+.gallery_item {
+    height: 570px;
+    width: 460px;
+    border: 3px solid #1d1d49;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.gallery_item_img{
+    background: #1d1d49;
+    height: 45%;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.gallery_item_text{
+    height: 45%;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.gallery_item_buttons{
+    height: 10%;
+    width: 100%;
+    border-top: 3px solid #1d1d49;
+}
+
+/* ________ INFO BLOCK ________*/
+
+.info_blocks{
+    margin: 70px 0;
+    width: 90%
+}
+
+.info_block{
+    background: #1d1d49;
+    color: aqua;
+    height: 540px;
+    width: 50%;
+}
+
+.info_block div{
+    height: 35%;
+    width: 70%;
+}
+
+.info_block button{
+    padding: 20px 50px;
+    background: aqua;
+    color: #1d1d49;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.info_block2{
+    background: aqua;
+    color: #1d1d49;
+    height: 540px;
+    width: 50%;
+}
+
+.info_block2 div{
+    height: 35%;
+    width: 70%;
+}
+
+.info_block2 button{
+    padding: 20px 50px;
+    background: #1d1d49;
+    color: aqua;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.border-red{
+    border: 1px solid red;
+}
+
+
+/* ________ FOOTER BLOCK ________*/
+
+.footer{
+    height: 270px;
+    background: #1d1d49 ;
+}
+
+.footer_blocks{
+    height: 70%;
+    width: 50%;
+}
+
+.footer_block{
+    height: 50%;
+}
+
+.footer_block_square{
+    height: 60px;
+    width: 60px;
+    background: #9abcc8;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.footer_block_line{
+    height: 3px;
+    width: 100%;
+    background: #9abcc8;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ________ FLEX ________*/
+.d-flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+/* ________ BUTTON ________*/
+.button {
+    background: #1d1d49;
+    color: #9abcc8;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background: #9abcc8;
+    color: #1d1d49;
+    transition: 0.3s;
+}
+
+.padding-5-25{
+    padding: 5px 25px;
+}
