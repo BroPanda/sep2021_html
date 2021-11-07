@@ -404,10 +404,193 @@ body {
     height: 20px;
 }
 
+/**/
+/**/
+/**/
+
+.carousel_2 {
+    column-gap: 30px;
+}
+
+.carousel_2_item {
+    width: 431px;
+    height: 184px;
+
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.carousel_2_item_boxes {
+    margin: 30px;
+}
+
+.carousel_2_item_box1 {
+    width: 74px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #0A1A2C;
+    margin-bottom: 10px;
+}
+
+.carousel_2_item_box2 {
+    width: 168px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+    margin-bottom: 12px;
+}
+
+.carousel_2_item_box3 {
+    width: 86px;
+    height: 26px;
+    background: #005BB9;
+    border-radius: 4px;
+}
+
+.carousel_2_item_box3 div {
+    width: 56px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
 
 /**/
 /**/
 /**/
+
+
+.share {
+    margin: 30px 0;
+}
+
+.share_item1 {
+    width: 241px;
+    height: 55px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+
+.share_item2 {
+    width: 123px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0 20px;
+}
+
+.share_item3 {
+    width: 229px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.share_item1_txt{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.share_item2_txt{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #005BB9;
+}
+
+.share_item3_txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #005BB9;
+}
+
+
+/**/
+/**/
+/**/
+
+
+.shop_item{
+    width: 316px;
+    height: 418px;
+}
+
+.shop_item_star{
+    margin-left: 10px;
+}
+
+.shop_item_rating{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFB800;
+    margin: 0 3px;
+}
+
+.shop_item_feed{
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #B0B0B0;
+}
+
+.shop_item_txt{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+    margin: 10px;
+}
+
+.shop_item_txt1{
+    margin: 10px;
+    column-gap: 4px;
+}
+
+.shop_item_txt1 div:first-child{
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.shop_item_txt1 div:last-child{
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+
+.shop_item_btn{
+    width: 160px;
+    height: 49px;
+
+    background: #005BB9;
+    border-radius: 6px;
+}
+
+
+
+
 
 
 
