@@ -499,14 +499,14 @@ body {
     border-radius: 6px;
 }
 
-.share_item1_txt{
+.share_item1_txt {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
 }
 
-.share_item2_txt{
+.share_item2_txt {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
@@ -514,7 +514,7 @@ body {
     color: #005BB9;
 }
 
-.share_item3_txt{
+.share_item3_txt {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -530,16 +530,16 @@ body {
 /**/
 
 
-.shop_item{
+.shop_item {
     width: 316px;
     height: 418px;
 }
 
-.shop_item_star{
+.shop_item_star {
     margin-left: 10px;
 }
 
-.shop_item_rating{
+.shop_item_rating {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -547,14 +547,14 @@ body {
     margin: 0 3px;
 }
 
-.shop_item_feed{
+.shop_item_feed {
     font-size: 14px;
     line-height: 16px;
 
     color: #B0B0B0;
 }
 
-.shop_item_txt{
+.shop_item_txt {
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
@@ -562,33 +562,245 @@ body {
     margin: 10px;
 }
 
-.shop_item_txt1{
+.shop_item_txt1 {
     margin: 10px;
     column-gap: 4px;
 }
 
-.shop_item_txt1 div:first-child{
+.shop_item_txt1 div:first-child {
     font-size: 13px;
     line-height: 15px;
     color: #000000;
 }
 
-.shop_item_txt1 div:last-child{
+.shop_item_txt1 div:last-child {
     font-size: 13px;
     line-height: 15px;
     text-decoration-line: underline;
     color: #005BB9;
 }
 
-.shop_item_btn{
-    width: 160px;
-    height: 49px;
+.shop_item_btn {
+    margin-top: 20px;
+    column-gap: 20px;
+}
 
-    background: #005BB9;
-    border-radius: 6px;
+.shop_item_heart img {
+    height: 28px;
+}
+
+.shop_item_diagram img {
+    height: 28px;
 }
 
 
+/**/
+/**/
+/**/
+
+.line {
+    margin: 40px 0;
+    width: 1354px;
+    height: 1px;
+
+    background: #E1E5F8;
+}
+
+/**/
+/**/
+/**/
+
+.show_more {
+    width: 187px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 80px;
+}
+
+.show_more_txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #005BB9;
+}
+
+/**/
+/**/
+/**/
+
+.news_title {
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+
+.news_line {
+    margin-top: 14px;
+    width: 100%;
+    height: 9px;
+    left: 0px;
+    top: 2189px;
+
+    background: #F5F5F5;
+}
+
+.news_dates {
+    top: -9px;
+    column-gap: 15px;
+}
+
+.news_date {
+    width: 300px;
+}
+
+.news_day_box {
+    width: 106px;
+    height: 22px;
+
+    background: #0C1A2A;
+    border-radius: 4px;
+}
+
+.news_day_box_txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+
+.news_day_title {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    margin: 15px 0 20px 0;
+
+    color: #005BB9;
+}
+
+/**/
+/**/
+/**/
+
+
+.footer {
+    margin-top: 30px;
+    background: #0C1A2A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.footer_box{
+    padding: 40px 0;
+}
+
+.footer_info {
+
+    column-gap: 90px;
+}
+
+.footer_info_catalog {
+    row-gap: 14px;
+    max-width: 276px;
+}
+
+.footer_info_catalog div:first-child {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+
+.footer_contacts{
+    column-gap: 70px;
+}
+
+.footer_contact_title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+    padding-bottom: 12px;
+}
+
+.footer_form{
+    margin: 20px 0;
+    column-gap: 23px;
+}
+
+.footer_form div:first-child{
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+}
+
+.footer_form div:last-child{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer_subscribe{
+    max-width: 340px;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #858CAB;
+    margin: 20px 0;
+}
+
+.footer_elements{
+    width: 470px;
+    height: 40px;
+    left: 1167px;
+    top: 2789px;
+
+    border: 1px solid #203246;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.footer_elements input{
+    background: #203246;
+}
+
+.footer_elements div{
+
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.footer_element_txt{
+    width: 177px;
+    height: 40px;
+    left: 1460px;
+    top: 2789px;
+
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+}
+
+
+.footer_year div {
+    font-size: 16px;
+    line-height: 20px;
+    color: #737E9B;
+    padding: 20px 0;
+}
 
 
 
