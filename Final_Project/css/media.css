@@ -280,21 +280,25 @@
         display: none;
     }
 
-    .news_day_line img{
+    .news_day_line img {
         display: none;
     }
 
-    .news_day{
+    .news_day {
         margin-top: 30px;
     }
 
-    .container{
+    .container {
         max-width: 329px;
     }
 
-    .footer_elements{
+    .footer_elements {
         width: 310px;
-
     }
+
+    .sm_d_none {
+        display: none;
+    }
+
 
 }
