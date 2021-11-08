@@ -12,6 +12,10 @@ body {
     color: #FFFFFF;
 }
 
+.menu_more{
+    display: none;
+}
+
 
 .location_img {
     height: 20px;
@@ -30,7 +34,7 @@ body {
     padding: 5px 0;
 }
 
-.info_menu_box1_logo {
+.info_menu_box1_logo img{
     height: 71px;
     width: 66px;
 }
@@ -284,6 +288,7 @@ body {
 }
 
 .carousel_main_txt3 div:first-child {
+    display: flex;
     font-weight: 500;
     font-size: 37px;
     line-height: 43px;
@@ -333,6 +338,7 @@ body {
 
 .carousel_1_items {
     row-gap: 10px;
+    flex-direction: column;
 }
 
 .carousel_1_item {
@@ -515,12 +521,9 @@ body {
 }
 
 .share_item3_txt {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-
     color: #005BB9;
 }
 
@@ -802,6 +805,10 @@ body {
     padding: 20px 0;
 }
 
+.footer_social{
+    margin-top: 28px;
+    column-gap: 55px;
+}
 
 
 
